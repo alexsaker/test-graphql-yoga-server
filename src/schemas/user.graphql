@@ -1,0 +1,28 @@
+type User {
+  _id: String
+  index: Int
+  guid: String
+  isActive: Boolean
+  balance: String
+  picture: String
+  age: Int
+  eyeColor: String
+  name: String
+  gender: String
+  company: String
+  email: String
+  phone: String
+  address: String
+  about: String
+  registered: String
+  latitude: Float
+  tags: [String]
+  greeting: String
+  friends: [Friend]
+  favoriteFruit: String
+}
+
+type Query {
+  getAllUsers: [User]
+  user(name: String!): User
+}

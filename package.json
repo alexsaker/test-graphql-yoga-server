@@ -1,0 +1,17 @@
+{
+  "name": "test-graphql-yoga-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Alexandre Saker",
+  "email": "saker.alexandre@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.6.1",
+    "merge-graphql-schemas": "^1.5.1"
+  }
+}
